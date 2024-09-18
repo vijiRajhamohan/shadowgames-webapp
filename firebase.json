@@ -1,0 +1,23 @@
+{
+  "hosting": [
+    {
+    "target": "beta",
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls" : true
+  },
+  {
+    "target": "prod",
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls" : true
+  }]
+}

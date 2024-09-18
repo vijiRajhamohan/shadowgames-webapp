@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "shadow-gms"
+  },
+  "targets": {
+    "shadow-gms": {
+      "hosting": {
+        "beta": [
+          "shadow-gms"
+        ],
+        "prod": [
+          "shadowgames-prod"
+        ]
+      }
+    }
+  }
+}
